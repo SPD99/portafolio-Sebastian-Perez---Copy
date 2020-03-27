@@ -1,0 +1,327 @@
+*{
+    margin:0;
+    padding:0; 
+ }
+
+
+#cabecera{
+    width: 100%;
+       height:350px;
+       background-image: url(../img/koeniglogo.jpg);
+       background-size: 100% 500px;
+       display: table;
+    }
+#pie{
+    width: 100%;
+    height: 50px;
+    display: table;
+    color: rgb(255, 153, 0); 
+    text-align: center;
+    padding-top: 10%;
+    background-color: black;
+}
+#compania {
+    width: 100%;
+    height: 600%;
+    display: table; 
+    background-color:black;
+    
+}
+#compania h1{ 
+    margin-top:3%;
+    margin-right:500px;
+    font-size: 40px;
+    font-family:'New Roman';
+    color:goldenrod;
+    text-align: center;
+}
+#compania p{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: white;
+    padding-top: 3%;
+}
+#compania img{
+    display: table;
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/kimg4.jpg);
+    background-size: 100% 100%;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-right: 3%;
+    float: right;
+}
+#tuatara{
+    width: 100%;
+    height: 600%;
+    display: table; 
+    background-color:black;
+
+}
+#tuatara h1{ 
+    margin-top:3%;
+    margin-right:500px;
+    font-size: 40px;
+    font-family:'New Roman';
+    color:goldenrod;
+    text-align: center;
+}
+#tuatara p{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: white;
+    padding-top: 3%;
+}
+#tuatara img{
+    display: table;
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/tuatara.jpg);
+    background-size: 100% 100%;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-right: 3%;
+    float: right;
+}
+#prototipo{
+    width: 100%;
+    height: 600%;
+    display: table; 
+    background-color:black;
+
+}
+#prototipo h1{ 
+    margin-top:3%;
+    margin-right:500px;
+    font-size: 40px;
+    font-family:'New Roman';
+    color:goldenrod;
+    text-align: center;
+}
+#prototipo p{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: white;
+    padding-top: 3%;
+}
+#prototipo img{
+    display: table;
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/prototipo.jpg);
+    background-size: 100% 100%;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-right: 3%;
+    float: right;
+}
+#logros{
+    width: 100%;
+    height: 600%;
+    display: table; 
+    background-color:black;
+
+}
+#logros h1{ 
+    margin-top:3%;
+    margin-right:500px;
+    font-size: 40px;
+    font-family:'New Roman';
+    color:goldenrod;
+    text-align: center;
+}
+#logros p{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: white;
+    padding-top: 3%;
+}
+#logros img{
+    display: table;
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/awards.jpg);
+    background-size: 100% 100%;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-right: 3%;
+    float: right;
+}
+#badge{
+    width: 100%;
+    height: 600%;
+    display: table; 
+    background-color:black;
+
+}
+#badge h1{ 
+    margin-top:3%;
+    margin-right:500px;
+    font-size: 40px;
+    font-family:'New Roman';
+    color:goldenrod;
+    text-align: center;
+}
+#badge p{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: white;
+    padding-top: 3%;
+}
+#badge img{
+    display: table;
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/badge.jpg);
+    background-size: 100% 100%;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-right: 3%;
+    float: right;
+}
+#contacto{
+    width: 100%;
+    height: 400%;
+    display: table; 
+    background-color:black;
+
+}
+#contacto h1{ 
+    margin-top:5%;
+    margin-right:500px;
+    font-size: 40px;
+    font-family:'New Roman';
+    color:goldenrod;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+#navegacion{
+    width: 100%;
+    background-color: rgb(52, 56, 65);
+    }
+    #navegacion ul{
+        display: inline-flex;
+        margin-left: 50%;
+    
+    }
+    #navegacion ul li{
+        list-style: none;
+    
+        
+    }
+    
+    #navegacion ul li a{
+        text-decoration: none;
+        padding: 20px 25px;
+        display: table;
+        border-right: 1px solid black;
+        color:goldenrod;
+    }
+    
+    #navegacion ul li a:hover{
+        color:black;
+        background-color: rgb(13, 37, 88);
+    }
+    
+    html{
+        scroll-behavior: smooth;
+        
+    }
+
+    label{
+
+        padding-left: 20%;
+        font-weight: bold;
+        color: rgb(218, 218, 218);
+        }
+         
+        input[type='email']{
+        background-color:rgb(255, 255, 255);
+        margin-left: 10%;
+        width: 350px;
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 3%;
+        padding-left: 2%;
+        }
+        
+        input[type='text']{
+            
+            margin-left: 10%;
+            width: 350px;
+            height: 30px;
+            border: 1px solid black;
+            border-radius: 3%;
+            padding-left: 2%;
+            }
+        
+        
+        input[type='submit']{
+            touch-action: none;
+            margin-left: 15%;
+            width: 250px;
+            height: 30px;
+            border: 1px solid black;
+            background-color: white;
+            color: black;
+            font-size: 20px;
+            }
+            input[type='submit']:hover{
+                background-color:rgb(226, 230, 17);
+                color:rgb(255, 153, 0);
+                
+            }
+            textarea{
+                margin-left: 10%;
+                width: 350px;
+                height: 100px;
+                border: 1px solid black;
+                border-radius: 3%;
+                padding-left: 2%;
+            
+            
+            }a.ir-arriba 
+            {    
+                padding: 0px 10px 5px 10px;
+                
+                background-size: 100% 100%;
+                width: 25px;
+                height:45px;
+                font-size: 40px;
+                color: rgb(223, 185, 17);
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                border: 1px  rgb(223, 185, 17);
+                border-radius: 40px;
+                text-decoration: none;
+                z-index: 5;
+            }
+            img:hover{
+                margin-top: 10px;
+                margin-left: 10px;
+                border-radius: 0%;
+                border: 2px solid goldenrod;
+                -webkit-transition: all 0.3s ease-in-out; 
+                -o-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+              }

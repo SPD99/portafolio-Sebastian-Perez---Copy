@@ -1,0 +1,677 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+html,body{
+    scroll-behavior: smooth;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+@font-face{
+    font-family: 'Aestethics';
+    src: url(../fonts/VCR_OSD_MONO.ttf);
+}
+
+
+
+
+
+@-webkit-keyframes up-underline {
+    0% { padding: 22px 0px; }    
+    100% { padding: 6px 0px; }
+}
+ 
+@-moz-keyframes up-underline {
+    0% { padding: 22px 0px; }    
+    100% { padding: 6px 0px; }
+}
+ 
+@-o-keyframes up-underline {
+    0% { padding: 22px 0px; }    
+    100% { padding: 6px 0px; }
+}
+ 
+@keyframes up-underline {
+    0% { padding: 22px 0px; }    
+    100% { padding: 6px 0px; }
+}
+ 
+@-webkit-keyframes down-underline {
+    0% { padding: 6px 0px; }    
+    100% { padding: 22px 0px; }
+}
+ 
+@-moz-keyframes down-underline {
+    0% { padding: 6px 0px; }    
+    100% { padding: 22px 0px; }
+}
+ 
+@-o-keyframes down-underline {
+    0% { padding: 6px 0px; }    
+    100% { padding: 22px 0px; }
+}
+ 
+@keyframes down-underline {
+    0% { padding: 6px 0px; }    
+    100% { padding: 22px 0px; }
+}
+ 
+
+ 
+.menu{
+    text-align: center;
+    line-height: 3.5;
+    border-bottom: 4px solid rgb(4, 6, 141);
+     
+}
+ 
+    .menu a{
+        padding: 22px 0px;
+        margin-right: 40px;
+        font-family: arial;
+        font-size: 18px;
+        text-decoration: none;
+        color: #f5f7f7;
+        border-bottom: 3px solid rgb(14, 15, 78);
+     
+         
+        -webkit-animation: down-underline .4s;
+        -moz-animation: down-underline .4s;
+        -o-animation: down-underline .4s;
+        animation: down-underline .4s;
+ 
+        -webkit-transition: all .2s ease-in;
+        -moz-transition: all .2s ease-in;
+        -o-transition: all .3s ease-in;
+        transition: all .3s ease-in;
+    }
+ 
+    .menu a:hover{
+        color: rgb(69, 202, 226);
+        padding: 6px 0px;
+             
+        -webkit-animation: up-underline .4s;
+        -moz-animation: up-underline .4s;
+        -o-animation: up-underline .4s;
+        animation: up-underline .4s;
+    }
+ 
+    .menu a.active{
+        padding: 6px 0;
+    }        
+
+    #header{
+        width: 100%;
+    height: 1000px;
+    background-image: url(../img/nikelogo.jpg);
+    background-size: 100% 1000px;
+    background-repeat: no-repeat;
+
+    }
+
+
+
+    #Title{ 
+        margin-left: 20px;
+        display:block;
+        text-align:center;
+        font-family: fantasy;
+        font-size:100px;
+        color:rgb(0, 0, 0);
+        z-index: 5;
+        margin-top:180px;
+        margin-bottom: 200px;
+        text-shadow: 2px 2px 5px #050505;
+      
+        
+    }
+    
+    .Barra-separadora{
+        background-position: bottom;
+        width:100%;
+        height:7px;
+        opacity: 0.90;
+        background-color:rgb(0, 0, 0);
+    }
+    
+    
+    
+    
+    
+    section{
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        max-width: 1400px;
+        height: 1000px;
+        margin:0 auto;
+        padding:0;
+        overflow: hidden;
+        width:100%;
+        
+    }
+        
+    
+        
+    #CupBanner button:hover{
+        border: 8px solid rgb(211, 3, 3);
+        transition: cubic-bezier(0.175, 0.885, 0.32, 1.275), 0.5s;
+    
+    }
+    
+     .Deal{
+         margin-top:20px;
+        text-align: center;
+        text-shadow: 2px 2px 3px rgb(32, 24, 104);
+        color:rgba(13, 14, 15, 0.966);
+        font-family: serif;
+        font-size: 70px;
+        
+        text-transform:uppercase;
+        margin-bottom:35px;
+    }
+    .Cup{
+        margin-left:25px;
+        text-transform: initial;
+        font-family: 'Times New Roman', Times, serif;
+        opacity: 0.92;
+        
+        color:rgb(0, 0, 0);
+        font-size: 28px;
+        max-width: 800px;
+        font-weight:1.7em;
+        padding-left:10px;
+        margin-bottom:210px;
+    
+    }
+    .Borde{  
+        border-left: 5px solid rgb(29, 29, 29);
+        padding-left: 5px;
+    }
+    #Cuphead{
+        height: 1000px;
+        background-image: url(../img/NikeShanghaiCampus01.jpg);
+        background-size: cover;
+        width:100%;
+    }
+    #Hotline{
+        height:1200px;
+        background-image: url(../img/backgroundshoe.jpg);
+        background-position:30%;
+        background-size: cover;
+        width:100%;
+    }
+    #Cyberpunk{
+        height:1200px;
+        background-image: url(../img/backgroundsweat.jpeg);
+        background-size: inherit;
+        width:100%;
+    }   
+    #Borderlands{
+        height:1200px;
+        background-image: url(../img/shirtbackground.jpg);
+        background-size: cover;
+        width:100%;
+        
+    }
+    #NMS{
+        height:1200px;
+        background-image: url(../img/hoodiewall.jpg);
+        background-size: cover;
+        width:100%;
+    }
+    .Hot{
+        
+        margin-top:20px;
+        text-align: center;
+        text-shadow: 2px 2px 3px rgb(32, 24, 104);
+        font-family: serif;
+        font-size: 70px;
+        color:rgba(13, 14, 15, 0.966);
+        text-transform:uppercase;
+        margin-bottom:35px;
+    }
+    .Cyber{
+        
+        margin-top:20px;
+        text-align: center;
+        text-shadow: 2px 2px 3px rgb(32, 24, 104);
+        color:rgba(13, 14, 15, 0.966);
+        font-family: serif;
+        font-size: 70px;
+        
+        text-transform:uppercase;
+        margin-bottom:35px;
+    }
+    .Border{
+        
+        margin-top:20px;
+        text-align: center;
+        text-shadow: 2px 2px 3px rgb(32, 24, 104);
+        color:rgba(13, 14, 15, 0.966);
+        font-family: serif;
+        font-size: 70px;
+       
+        text-transform:uppercase;
+        margin-bottom:35px;
+    }
+    .Nomans{
+        
+        margin-top:20px;
+        text-align: center;
+        text-shadow: 2px 2px 3px rgb(32, 24, 104);
+        color:rgba(13, 14, 15, 0.966);
+        font-family: serif;
+        font-size: 70px;
+        
+        text-transform:uppercase;
+        margin-bottom:35px;
+    }
+    .Borde-2{
+        margin-left:25%;
+        text-transform: capitalize;
+        font-family: 'Times New Roman';
+        opacity: 0.92;
+        
+        color:black;
+        font-size: 28px;
+        max-width: 800px;
+        font-weight:1.7em;
+        padding-left:10px;
+        text-align: left;
+    
+    }
+    .dunk{
+        background-image: url(../img/nikeshoe2.jpg);
+        
+        width :300px;
+        height: 250px;
+        background-repeat: no-repeat;
+       
+          
+    }
+    .dunk2{
+        background-image: url(../img/shoe3.jpg);
+        
+        width :600px;
+        height: 400px;
+        background-repeat: no-repeat;
+
+    }
+        
+        
+    
+    .Borde-3{
+        margin-left:20%;
+        text-transform: capitalize;
+        font-family: 'Times New Roman', Times, serif;
+        opacity: 0.92;
+        background-color: rgb(244, 248, 16);
+        color:black;
+        font-size: 28px;
+        max-width: 800px;
+        font-weight:1.7em;
+        padding-left:10px;
+    
+    }
+    .Borde-4{
+       
+            margin-left:20%;
+            text-transform: capitalize;
+            font-family: 'Times New Roman', Times, serif;
+            opacity: 0.92;
+           
+            color:rgb(0, 0, 0);
+            font-size: 28px;
+            
+            font-weight:1.7em;
+            padding-left:10px;
+        
+    }
+    .shirtnike{
+        background-image: url(../img/shirtnike.jpg);
+        
+        width :800px;
+        height: 400px;
+        background-repeat: no-repeat;
+    }
+    .shirtnike2{
+        background-image: url(../img/shirt2.jpg);
+        
+        width :800px;
+        height: 400px;
+        background-repeat: no-repeat;
+    }
+
+    .Borde-5{ 
+        margin-left:20%;
+        text-transform: capitalize;
+        font-family: 'Times New Roman', Times, serif;
+        opacity: 0.92;
+     
+        color:white;
+        font-size: 28px;
+        max-width: 900px;
+        font-weight:1.7em;
+        padding-left:10px;
+    
+    }
+    .hoodie1{
+        background-image: url(../img/hoodie1.jpg);
+        
+        width :500px;
+        height: 500px;
+        background-repeat: no-repeat;
+
+    }
+    .hoodie2{
+        background-image: url(../img/hoodie2.jpg);
+        
+        width :300px;
+        height: 300px;
+        background-repeat: no-repeat;
+
+    }
+    
+    .HotBanner{
+        
+        width:250px;
+        height:200px;
+        background-image: url(../css/Hotline/Hotline-1.jpg);
+        background-size:100% 100%;
+        border: 1px solid black;
+        box-shadow: 2px 2px 2px 1px white;
+        float:right;
+        margin-right:20px;
+        
+    }
+    .CyberBanner{
+        display: block;
+        width: 600px;
+        height: 90px;
+        background-image: url(../css/Cyberpunk/Cyber-banner.png);
+        background-size: contain;
+        margin-left: 27%;
+        border: 2px groove black;
+    }
+    .BorderBanner{ 
+        width:728px;
+        height:120px;
+        background-image:url(../css/Borderlands/Borderlands-banner.jpg);
+        background-size:100% 100%;
+        margin-left:23%;
+        margin-top:50px;
+        transition-duration:600ms;
+    }
+    .BorderBanner:hover{
+        
+        background-image:url(../css/Borderlands/BB.png);
+        transition-duration: 600ms;
+        transition-delay: 300ms;
+        transition-timing-function: ease-in;
+    
+    }
+    .NomansBanner{
+        
+        width:220px;
+        height:210px;
+        background-image: url(../img/ronnie.jpg) ;
+        
+        float: left;
+         
+    }
+    
+    
+     .Pulse:hover, .Pulse:focus{
+        -webkit-animation: pulse 1s;
+        animation: pulse 1s;
+        box-shadow: 0 0 0 2em rgba(161, 159, 159, 0)
+    }
+    
+        a.ir-arriba 
+    {    
+        padding: 0px 10px 5px 10px;
+        background-image: url(../img/Up.png);
+        background-color: #000;
+        background-size: 100% 100%;
+        width: 25px;
+        height:42px;
+        font-size: 30px;
+        color: #fff;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        border: 1px solid #d4d5d5;
+        border-radius: 30px;
+        text-decoration: none;
+        z-index: 5;
+    }
+    .icon-bar {
+        position: fixed;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        z-index: 5;
+      }
+      
+      .icon-bar a {
+          width:18px;
+          height:18px;
+        display: block;
+        text-align: center;
+        padding: 16px;
+        transition: all 0.3s ease;
+        color: white;
+        
+      }
+      
+      .icon-bar a:hover {
+        background-color: rgb(187, 187, 187);
+      }
+      
+      .facebook {
+        width:18px;
+        height: 18px;
+      background-image: url(../img/Facebook_Square_icon-icons.com_49948.png);
+      background-size:100% 100%;
+      }
+      
+      
+      
+      
+      .youtube {
+          width:18px;
+          height: 18px;
+        background-image: url(../img/YouTube_icon-icons.com_49934.png);
+        background-size:100% 100%;
+      }
+      .instagram{
+        width:18px;
+        height: 18px;
+      background-image: url(../img/instagram_icon-icons.com_49943.png);
+      background-size:100% 100%;
+      }
+      
+      #footer
+    {  
+        width: 100%;
+        height: 400px;
+        background-color: rgb(12, 12, 12);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-image:url(../img/footernike.jpg);
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+        background-position: center;
+    } 
+    
+    #footer .Iconitos{
+        display: table;
+        width: 100%;
+        background-color:rgb(109, 102, 102);
+    } 
+      #footer ul {
+          display:table;
+          width:30%;
+          height:100%;
+          background-color:transparent;
+    }
+    
+    b{  
+        color:white;
+        text-transform: uppercase;
+        font-size:20px;
+    }
+    label{
+        font-size:20px;
+        color:white;
+    }
+    input{
+        background-color:gray;
+        color:white;
+    }
+    textarea{
+        width:150px;
+        height:100px;
+        background-color:gray;
+    }
+    .Boxes{
+          margin-left:100px;
+          position: static;
+          float:left;
+          margin-top: 40px;
+    }
+      h3{ font-size:20px;
+          text-align:center;
+          margin-top: 30px;
+        margin-right:30px;
+          font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+          color:rgb(130, 4, 161);
+      }
+      h3:hover{
+          color:white;
+      }
+     
+    
+          
+          .Derechos{
+            display: block;
+            width:fit-content;
+            height:fit-content;
+            float: right;
+            margin-top:150px;
+            margin-right:210px;
+            color:rgb(0, 0, 0);
+        }
+        h2 {
+            font-weight: bold;
+            opacity: 0.85;
+            text-align: center;
+            text-shadow: 1px 1px 1px rgb(37, 37, 37);
+            margin-bottom: 3em;
+            text-transform: uppercase;
+        }
+    .foot
+    {
+        
+        text-align: center;
+    }
+    
+    @keyframes AnimatedBackground{
+        
+       from{background-position: 0% 0%}
+    to{ background-position: 10% 80%} 
+    }
+       
+    /*#animatedArea{
+        width: 100%;
+        height: auto;
+        background-image: url(../img/488805_vhs-static-png.png);
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    
+        animation: AnimatedBackground 3s alternate-reverse infinite;
+        z-index: -99999;
+    }*/
+    
+    .container{
+        margin: 0 auto;
+        margin-top: 20px;
+        position: relative;
+        width: 70%;
+        height: 0;
+        padding-bottom: 40%;
+        background: #15545f;
+        border: solid 10px #2264a1;
+    }
+    .slide_img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .slide_img img{
+        width: 100%;
+        height: 100%;
+    
+    }
+    #i1,#i2,#i3,#i4{
+        display: none;
+    
+    }
+    .prev, .next{
+        width: 12%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        background: rgba(88, 88,88,.4);
+        z-index: 99;
+        cursor: pointer;
+    
+    }
+    .prev{
+        left:0 ;
+    }
+    .next{
+        right:0 ;
+    }
+    #nav_slide{
+        width: 100%;
+        height: 11px;
+        bottom: 12%;
+        position: absolute;
+        text-align: center;
+        z-index: 9;
+    }
+    .dots{
+        top: -4px;
+        width: 18px;
+        height: 18px;
+        margin: 4px;
+        position: relative;
+        border-radius: 50%;
+        display: inline-block;
+        background: rgba(0,0,0,.6);
+    }
+    .slide_img{
+        z-index: -1;
+    }
+    #i1:checked ~ #one,
+    #i2:checked ~ #two,
+    #i3:checked ~ #three{
+        z-index: 8;
+    }
+    
+    #i1:checked ~ .nav #dot1,
+    #i2:checked ~ .nav #dot2,
+    #i3:checked ~ .nav #dot3{
+        background: #fff;
+    }
+    
+    
+    
+    
+    
+    
